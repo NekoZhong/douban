@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+.navcolor{
+    height: 28px;
+    background-color: #545652;
+}
+.nav-bar{
+    width: 1349px;
+    font-size: 12px;
+}
+
+.nav-bar a{
+    color:#d5d5d5;    
+}
+
+.nav-bar .nav-bar-left {
+    line-height: 28px;
+    float: left;
+}
+ .nav-bar .nav-bar-left li{
+    display:inline-block;
+}   
+ .nav-bar .nav-bar-left li a{
+    display:inline-block;
+    height: 28px;
+    padding: 0 12px;
+}   
+
+.nav-bar .nav-bar-right {
+    float: right;
+    line-height: 28px;
+}
+ .nav-bar .nav-bar-right a{
+     float: right;
+    height: 28px;
+    padding: 0 12px;
+}   
+
+/* 搜索区域 */
+
+.searchcolor{
+    background-color: #e3e9e2;
+    height: 115px;
+}
+
+.nav-func{
+    width: 895px;
+    margin: 0 auto;
+}
+
+.nav-music {
+    float: left;
+    margin-top: 20px;    
+    width: 150px;
+    height: 30px;
+    background: url('../img/music.png') no-repeat;
+}
+.nav-search input{
+    margin-top: 20px;
+    padding-left: 15px;
+    width: 500px;
+    height: 30px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 4px 3px #545652;
+    outline: none;
+}
+/* .nav-search input::-webkit-input-placeholder{
+    padding-left: 10px;
+} */
+.search-list{
+    margin: 15px 0 0px 150px;
+    width: 500px;    
+}
+.search-list li{
+    width: 500px;
+    border-bottom: 1px solid #ccc;
+    height: 40px;
+    margin-bottom: 15px;
+    
+}
+.search-list img{
+    float:left;
+    width: 30px;
+    height: 30px;
+}
